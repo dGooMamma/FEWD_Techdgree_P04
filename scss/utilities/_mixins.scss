@@ -1,0 +1,12 @@
+// --------------------------------
+// MIXINS
+// --------------------------------
+
+
+@mixin mq($break) {
+  @if $break == 'lg' {
+    @media (min-width: $breakpoint-l) {
+      @content;
+    }
+  }
+}
