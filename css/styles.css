@@ -490,8 +490,7 @@ a {
     text-align: center; } }
 
 .form {
-  flex-basis: 100%;
-  text-align: center; }
+  flex-basis: 100%; }
   .form .img-avatar {
     display: block;
     margin-left: auto;
